@@ -1,6 +1,6 @@
 $('.loader').css('opacity','0');
 
-$('#submit-btn').on('click', function(event){
+$('form').on('submit', function(event){
   event.preventDefault();
   //$('#results').html('Loading...');
 
